@@ -1,1 +1,1 @@
-class Cachorro ()
+class Gato ()
