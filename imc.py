@@ -27,7 +27,7 @@ class IMC:
         """Calcula o IMC com base no peso e altura."""
         if self.__altura <= 0:
             raise ValueError("Altura deve ser maior que zero.")
-        return self.__peso / (self.__altura ** 2)
+        return self.__peso / (self.__altura * self.__altura)
 
     def classificar_imc(self):
         """Classifica o IMC de acordo com os padrões da OMS."""
